@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --red: rgb(239, 51, 82);
+  --orange: rgb(255, 210, 10);
+  --blue: rgb(60, 60, 237);
+  --turquoise: rgb(65, 207, 183);
+  --lightblue: rgb(82, 201, 240);
+  --purple: rgb(58, 0, 128);
+}
+body {
+  height: 100vh;
+  font-family: system-ui;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+header {
+  background-color: var(--red);
+  border-radius: 6px;
+  padding: 15px;
+}
+main {
+  flex: 1;
+  background-color: var(--orange);
+  border-radius: 6px;
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+}
+
+section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.section-blue {
+  flex: 1;
+  background-color: var(--blue);
+  border-radius: 6px;
+  padding: 8px;
+}
+.section-turquoise {
+  flex: 1;
+  background-color: var(--turquoise);
+  border-radius: 6px;
+  color: black;
+  padding: 8px;
+}
+aside {
+  background-color: var(--lightblue);
+  color: black;
+  border-radius: 6px;
+  width: 400px;
+  padding: 8px;
+}
+footer {
+  background-color: var(--purple);
+  border-radius: 6px;
+  font-size: 10px;
+  padding: 15px;
+}
